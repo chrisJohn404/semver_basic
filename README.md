@@ -1,3 +1,10 @@
+<a href="https://github.com/chrisjohn404/semver_basic">
+	<img 
+	 alt="tag:?"
+	 src="https://img.shields.io/github/workflow/status/chrisjohn404/semver_basic/test"
+	>
+</a>
+
 A simple way to check version number strings.
 
 ```

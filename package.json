@@ -1,6 +1,6 @@
 {
 	"name": "semver_basic",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A basic library to check semver strings.",
 	"main": "semver_basic.js",
 	"scripts": {
