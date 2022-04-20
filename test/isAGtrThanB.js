@@ -4,7 +4,6 @@
  * Date: March 2022
  */
 
-const testCase = require('mocha').describe;
 const assert = require('chai').assert;
 const isAGtrThanB = require('../semver_basic.js').isAGtrThanB;
 
