@@ -1,24 +1,24 @@
 
 function isAGtrThanB(a, b) {
-	const aSplits = a.split('.');
-	const bSplits = b.split('.');
+	const a_splits = a.split('.');
+	const b_splits = b.split('.');
 	
-	if(aSplits.length != bSplits.length || aSplits.length != 3) {
+	if(a_splits.length != b_splits.length || a_splits.length != 3) {
 		throw new Error('Version number strings should be in the form x.x.x');
 	}
 
-	let isGtr = false;
+	let is_gtr = false;
 
 	for (let i = 0; i < 3; i++) {
-		if(aSplits[i] > bSplits[i]) {
-			isGtr = true;
+		if(a_splits[i] > b_splits[i]) {
+			is_gtr = true;
 			break;
-		} else if(aSplits[i] < bSplits[i]) {
-			isGtr = false;
+		} else if(a_splits[i] < b_splits[i]) {
+			is_gtr = false;
 			break;
 		}
 	}
-	return isGtr;
+	return is_gtr;
 }
 
 
